@@ -23,6 +23,10 @@ public class FeedbackMcqQuestionDetailsTest extends BaseTestCase {
         assertEquals(0.0, mcqDetails.getMcqOtherWeight());
     }
 
+    /**
+     * Test to validate questions choices less than minimum requirement will return error.
+     */
+    // CS 427 Issue link: https://github.com/TEAMMATES/teammates/issues/11388FeedbackMcqQuestionDetailsTest
     @Test
     public void testValidateQuestionDetails_choicesLessThanMinRequirement_errorReturned() {
         FeedbackMcqQuestionDetails mcqDetails = new FeedbackMcqQuestionDetails();

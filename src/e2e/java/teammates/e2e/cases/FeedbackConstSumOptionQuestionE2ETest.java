@@ -37,6 +37,10 @@ public class FeedbackConstSumOptionQuestionE2ETest extends BaseFeedbackQuestionE
         testSubmitPage();
     }
 
+    /**
+     * The test to verify the edit page for the normal behavior.
+     */
+    // CS 427 Issue link: https://github.com/TEAMMATES/teammates/issues/11388
     @Override
     protected void testEditPage() {
         InstructorFeedbackEditPage feedbackEditPage = loginToFeedbackEditPage();

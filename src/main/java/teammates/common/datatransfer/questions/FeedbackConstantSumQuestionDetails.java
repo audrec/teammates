@@ -11,6 +11,7 @@ import teammates.common.util.FieldValidator;
 /**
  * Contains specific structure and processing logic for constant sum feedback questions.
  */
+// CS 427 Issue link: https://github.com/TEAMMATES/teammates/issues/11388
 public class FeedbackConstantSumQuestionDetails extends FeedbackQuestionDetails {
 
     static final String QUESTION_TYPE_NAME_OPTION = "Distribute points (among options) question";

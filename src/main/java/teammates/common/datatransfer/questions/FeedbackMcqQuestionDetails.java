@@ -9,6 +9,7 @@ import teammates.common.datatransfer.attributes.FeedbackQuestionAttributes;
 /**
  * Contains specific structure and processing logic for MCQ feedback questions.
  */
+// CS 427 Issue link: https://github.com/TEAMMATES/teammates/issues/11388
 public class FeedbackMcqQuestionDetails extends FeedbackQuestionDetails {
 
     static final String QUESTION_TYPE_NAME = "Multiple-choice (single answer) question";

@@ -41,6 +41,7 @@ import teammates.ui.request.FeedbackQuestionUpdateRequest;
 /**
 * L&P Test Case for feedback question update cascade API.
 */
+// CS 427 Issue link: https://github.com/TEAMMATES/teammates/issues/11388
 public class FeedbackQuestionUpdateLNPTest extends BaseLNPTestCase {
     private static final int NUM_INSTRUCTORS = 1;
     private static final int RAMP_UP_PERIOD = NUM_INSTRUCTORS * 2;

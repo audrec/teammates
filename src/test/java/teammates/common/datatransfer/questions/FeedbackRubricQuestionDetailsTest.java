@@ -23,6 +23,10 @@ public class FeedbackRubricQuestionDetailsTest extends BaseTestCase {
         assertTrue(rubricDetails.getRubricWeights().isEmpty());
     }
 
+    /**
+     * Validate error will return if question details list size is incorrect.
+     */
+    // CS 427 Issue link: https://github.com/TEAMMATES/teammates/issues/11388
     @Test
     public void testValidateQuestionDetails_invalidWeightListSize_errorReturned() {
         FeedbackRubricQuestionDetails rubricDetails = new FeedbackRubricQuestionDetails();
